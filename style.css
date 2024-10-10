@@ -1,0 +1,98 @@
+#cabecalho {
+    border: 1px solid black;
+   
+}
+
+#principal {
+    margin-bottom: 1px solid black;
+    background: linear-gradient(150deg, #000000, #9e00ff);
+    height: 600px;
+    display: flex;
+}
+
+
+#frame {
+    margin: auto;
+    height: 400px;
+    width: 800px;
+}
+
+.cartao {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.tela {
+    margin:0px 50% 0px 50%;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    font-family: var(--bs-body-font-family);
+}
+
+.child {
+    margin: 0 auto;
+}
+
+.child h2 {
+    font-size: 40px;
+}
+
+
+.t1 {
+    width: 100%;
+    display: flex;
+    font-family: var(--bs-body-font-family);
+}
+
+.t2 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+}
+
+.links {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}   
+
+.links:hover {
+    color: #9e9d9d;
+    text-decoration: underline;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+}
+
+.rodape {
+    margin:  auto;
+    color: white;
+    font-size: 20px;
+}
+
+.link-rodape {
+    color: white;
+}
+
+.link-rodape:hover {
+    color: #9e9d9d;
+}
+
+main {
+    height: 30px;
+    width: 370px;
+    padding: 0px 0px 0px 40%;
+}
+
+.icone {
+    color: white;
+    font-size: 30px;
+}

@@ -1,0 +1,100 @@
+#cabecalho {
+    border: 1px solid black;
+
+}
+
+#principal {
+    margin-bottom: 1px solid black;
+    background: linear-gradient(150deg, #000000, #9e00ff);
+    height: 600px;
+    display: flex;
+}
+
+
+
+#frame {
+    margin: auto;
+    height: 400px;
+    width: 800px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+article p {
+    color: #666;
+    line-height: 1.6;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+}
+
+.rodape {
+    margin:  auto;
+    color: white;
+    font-size: 20px;
+}
+
+.link-rodape {
+    color: white;
+}
+
+.link-rodape:hover {
+    color: #9e9d9d;
+}
+
+.contatos {
+    height: 30px;
+    width: 370px;
+    padding: 0px 0px 0px 40%;
+}
+
+.icone {
+    color: white;
+    font-size: 30px;
+}
